@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/Online-Store-For-Cendev/",   // MUST MATCH repo name exactly
   resolve: {
     alias: {
       // Alias @ to the src directory
